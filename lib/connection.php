@@ -4,7 +4,7 @@ function connectBank(
     $HOST = "localhost",
     $USER = "root",
     $PASSWORD = "",
-    $DB = "VENDA"
+    $DB = "venda"
 ){
     
     $connection = mysqli_connect($HOST, $USER, $PASSWORD, $DB);
