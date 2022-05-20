@@ -1,8 +1,18 @@
-<nav>
-    <ul>
-        <li><a href="./cliente.php">Cliente</a></li>
-        <li><a href="./produto.php">Produto</a></li>
-        <li><a href="./categoria.php">Categoria</a></li>
-        <li><a href="./funcionarios.php">Funcionários</a></li>
-    </ul>
-</nav>
+<header>
+        <nav class="nav black">
+            <div class="space_between">
+                <div class="containerFlex">
+                    <strong class="logo">Logo</strong>
+                </div>
+                <div>
+                    <ul class="flex navList">
+                        <li>teste</li>
+                        <li>teste</li>
+                        <li>teste</li>
+                        <li>teste</li>
+                        <li>teset</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
