@@ -1,6 +1,5 @@
 <?php
 
-
 $cod = $_POST["cod"];
 $nome = $_POST["nome"];
 $endereco = $_POST["endereco"];
@@ -18,9 +17,12 @@ $email = $_POST["email"];
 $CPF = $_POST["CPF"];
 $estado = $_POST["estado"];
 
+$sql = "INSERT INTO cliente (nome, endereco, telefone, limite_cred, email, CPF, estado) VALUES ('$nome', '$endereco', '$telefone', $limite_cred, $email, $CPF, $estado);";
+$sql2 = "SELECT * FROM cliente;";
+$sql3 = "SELECT * FROM cliente WHERE cod = $codigo;";
+
 $id = $_POST["id"];
 $descricao = $_POST["descricao"];
-
 
 $cod  = $_POST["cod"];
 $nome  = $_POST["nome"];
